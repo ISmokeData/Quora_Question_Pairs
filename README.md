@@ -38,11 +38,12 @@ Advanced features were engineered to improve model performance:
 - **abs_len_diff**: Absolute difference between the lengths of the two questions.
 - **longest_substr_ratio**: Ratio of the longest common substring length to the length of the smaller question.
 
-### Fuzzy Features
+### [Fuzzy Features](https://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/)
 - **fuzz_ratio**: Fuzzy ratio score from `fuzzywuzzy`.
 - **fuzz_partial_ratio**: Partial ratio from `fuzzywuzzy`.
 - **token_sort_ratio**: Token sort ratio from `fuzzywuzzy`.
 - **token_set_ratio**: Token set ratio from `fuzzywuzzy`.
+  
 
 ## Technologies Used
 - **Python**
