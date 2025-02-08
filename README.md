@@ -13,6 +13,7 @@ This project aims to identify whether two questions from the Quora Question Pair
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
+- [Improving Accuracy](#improving-accuracy)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -86,8 +87,20 @@ The models were evaluated based on accuracy, precision, recall, and F1-score.
 ## Results
 The project achieved high accuracy in detecting duplicate questions. XGBoost outperformed RandomForest in terms of precision and recall. Detailed metrics and visualizations can be found in the results folder.
 
+## Improving Accuracy
+If you want to further improve the accuracy of the model, you can consider the following techniques:
+1. **Increase Data**: Use more data to train the model for better generalization.
+2. **Increase RAM**: Utilize higher memory to handle larger datasets and complex computations.
+3. **Cloud Platform**: Use cloud-based platforms like AWS, Google Cloud, or Azure for scalable resources.
+4. **Incremental Learning**: Implement incremental learning techniques using libraries like Dask.
+5. **Preprocessing**: Apply advanced preprocessing methods like stemming and lemmatization.
+6. **Apply More Algorithms**: Experiment with additional algorithms like LightGBM, CatBoost, or neural networks.
+7. **Create More Features**: Engineer new features that could capture deeper relationships between question pairs.
+8. **Bag of Words Models**: Implement models like TF-IDF, Word2Vec, and TF-IDF weighted Word2Vec to enhance text representation.
+
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
 
 ## License
 This project is licensed under the MIT License.
+
